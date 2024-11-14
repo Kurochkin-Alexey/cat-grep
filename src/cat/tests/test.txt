@@ -1,0 +1,74 @@
+This file made
+
+    To check how    
+
+    Does the cat
+
+And      it's    flags   
+
+Really work!
+
+-b works
+(     1  This file made
+
+     2  To check how
+
+     3  Does the cat
+
+     4  And it's flags
+
+     5  Really work!)
+
+-e works too 
+(To check how$
+$
+Does the cat$
+$
+)
+
+-n works
+(   1  This file made
+     2
+     3  To check how
+     4
+     5  Does the cat)
+
+
+
+
+
+-A, --show-all           equivalent to -vET
+  -b, --number-nonblank    number nonempty output lines, overrides -n
+  -e                       equivalent to -vE
+  -E, --show-ends          display $ at end of each line
+  -n, --number             number all output lines
+  -s, --squeeze-blank      suppress repeated empty output lines
+  -t                       equivalent to -vT
+  -T, --show-tabs          display TAB characters as ^I
+  -u                       (ignored)
+  -v, --show-nonprinting   use ^ and M- notation, except for LFD and TAB
+      --help     display this help and exit
+      --version  output version information and exit
+
+
+-s works
+(    4
+     5  Does the cat
+
+
+-A, --show-all           equivalent to -vET
+)
+
+-E works like -e
+
+-t works very strange. They make russian letters strange
+
+-T does nothing for some reasons
+
+-u I do not understand how works
+
+-v does the same as -t, but -t should show the tabs, unfortunately it don't
+
+This is a	test	file.
+It contains	some	tabs.
+Let's replace	them	with	^I.

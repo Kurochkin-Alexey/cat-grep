@@ -1,0 +1,24 @@
+The history of C-language is interesting to know. The C-language is a general-purpose and procedural-oriented programming language. 
+It is a structured and machine-independent programming language. It was developed by Dennis Ritchie in 1972 at the AT&T Bell Laboratories. 
+It was developed along with the UNIX operating system, and is strongly linked with UNIX operating system. 
+History of C language revolves around development as a system implementation language to write an operating system. 
+In terms of the history of C language, its main features include low-level memory access as well as high-level memory access (so it is a middle-level programming language), a handy set of keywords, and a neat and clean style, these features make C programming language suitable for system programming. 
+C supports a wide variety of built-in functions, standard libraries and header files. It follows a top-down approach. 
+Many languages have derived syntax directly or indirectly from the C programming language. For example, C++ is closely a superset of the C language. 
+Also, C programming language is very popular for system-level apps.
+History of C Programming Language:
+To learn about the history of C language, let's first start with its root and early developments. The root of all modern languages is ALGOL (Algorithmic Language). 
+ALGOL was the first computer programming language to use a block structure, and it was introduced in 1960. In 1967, Martin Richards developed a language called BCPL (Basic Combined Programming Language). 
+BCPL was derived from ALGOL. In 1970, Ken Thompson created a language using BCPL called B. Both BCPL and B programming languages were typeless. 
+After that, C was developed using BCPL and B by Dennis Ritchie at the Bell lab in 1972. 
+So, in terms of history of C language, it was used in mainly academic environments, but at long last with the release of many C compilers for commercial use and the increasing popularity of UNIX, it began to gain extensive support among professionals.
+
+chronological-history-of-c
+
+Early Implementations and Language Standard:
+As discussed, in the history of C language, the development of C was intended to serve as the foundation for the creation of UNIX.
+By early 1973, the rudiments of ultramodern C had been completed, according to the Bell Labs report. 
+The language and compiler were both powerful enough to rewrite the UNIX kernel in C for the PDP-11. 
+Brian Kernighan and Dennis Ritchie published The C Programming Language in 1978, which served as a reference for the language until a formal standard was established in the history of C language. 
+Between 1973 and 1980, the language evolved slightly: unsigned, long, union, and enumeration types were added to the type structure, and structures became practically first-class objects (lacking only a notation for literals). 
+Its environment, as well as the technology that accompanied it, saw significant changes. In the summer of 1983, American National Standard Institute (ANSI) formed the X3J11 committee under the guidance of CBEMA with the purpose of establishing a C standard. At the end of 1989, X3J11 published its report [ANSI 89], which was later recognised by ISO as ISO/IEC 9899-1990.

@@ -1,0 +1,23 @@
+name: Test functions
+on:
+  push:
+    branches: [ "main" ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Make and test cat
+        run: |
+          if [ -d "src/cat" ]; then
+            cd src/cat && make && python3 cat_test.py
+          else
+            echo "Directory src/cat not found"
+          fi
+      - name: Make and test grep
+        run: |
+          if [ -d "src/grep" ]; then
+            cd src/grep && make && python3 grep_test.py
+          else
+            echo "Directory src/grep not found"
+          fi
